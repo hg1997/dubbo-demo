@@ -1,6 +1,4 @@
-/*
-  Copyright (C), 2011-2018, 微贷网.
- */
+
 package edu.cqupt.domain;
 
 /**
