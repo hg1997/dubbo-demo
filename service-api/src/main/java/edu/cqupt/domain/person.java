@@ -39,4 +39,7 @@ public class person {
         this.name = name;
         this.password = password;
     }
+
+    public person() {
+    }
 }
