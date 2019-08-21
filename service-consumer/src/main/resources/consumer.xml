@@ -11,7 +11,7 @@
     <dubbo:application name="demo-consumer"/>
 
     <!-- use multicast registry center to export service -->
-    <dubbo:registry address="zookeeper://118.24.113.168:2181"/>
+    <dubbo:registry address="zookeeper://172.17.162.99:2181"/>
 
     <dubbo:reference id="helloService" interface="edu.cqupt.service.HelloService"/>
 

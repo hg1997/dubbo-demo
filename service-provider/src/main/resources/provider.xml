@@ -11,7 +11,7 @@
     <dubbo:application name="demo-provider"/>
 
     <!-- use multicast registry center to export service -->
-    <dubbo:registry address="zookeeper://118.24.113.168:2181"/>
+    <dubbo:registry address="zookeeper://172.17.162.99:2181"/>
 
     <!-- use dubbo protocol to export service on port 20880 -->
     <dubbo:protocol name="dubbo" port="20880"/>
